@@ -1,27 +1,18 @@
 # Scion
 
-TODO: Write a gem description
+This is a general gem to help play the game Scion, or any other White Wolf games.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'scion'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install scion
 
 ## Usage
 
-TODO: Write usage instructions here
-
+    $ scion help
+    > Commands:
+    >   scion help [COMMAND]                                    # Describe available commands or one specific command
+    >   scion roll DICE AUTO_SUCCESSES [NUM_SIDES] [THRESHOLD]  # Roll number of DICE, adding a certain AUTO_SUCCESSES
+    
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/scion/fork )
