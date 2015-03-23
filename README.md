@@ -11,7 +11,7 @@ This is a general gem to help play the game Scion, or any other White Wolf games
     $ scion help
     > Commands:
     >   scion help [COMMAND]                                    # Describe available commands or one specific command
-    >   scion roll DICE AUTO_SUCCESSES [NUM_SIDES] [THRESHOLD]  # Roll number of DICE, adding a certain AUTO_SUCCESSES
+    >   scion roll DICE [AUTO_SUCCESSES] [NUM_SIDES] [THRESHOLD]  # Roll number of DICE, adding a certain AUTO_SUCCESSES
     
 ## Contributing
 

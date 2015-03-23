@@ -2,8 +2,8 @@ require 'thor'
 
 module Scion
   class CLI < Thor
-    desc 'roll DICE AUTO_SUCCESSES [NUM_SIDES] [THRESHOLD]', 'Roll number of DICE, adding a certain AUTO_SUCCESSES'
-    def roll(dice, auto_successes, num_sides = 10, threshold = 7)
+    desc 'roll DICE [AUTO_SUCCESSES] [NUM_SIDES] [THRESHOLD]', 'Roll number of DICE, adding a certain AUTO_SUCCESSES'
+    def roll(dice, auto_successes = 0, num_sides = 10, threshold = 7)
       dice = Integer(dice)
       auto_successes = Integer(auto_successes)
       num_sides = Integer(num_sides)
